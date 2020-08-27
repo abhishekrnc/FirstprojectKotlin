@@ -11,3 +11,6 @@ fun main() {
     println(alphabet)
     println(message)
 }
+
+
+//Var can be reassigned and Val cannot be reassigned
