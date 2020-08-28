@@ -63,7 +63,9 @@ fun main() {
     for(i in 1..10)
     {
         //2 x 1 = 2
-        println(number.toString() + "x" + i + "=" + (number*i))
+        //println(number.toString() + "x" + i + "=" + (number*i))
+        //STring Templating
+        println("$number x $i = ${number * i}")
     }
 
 }
