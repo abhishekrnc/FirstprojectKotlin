@@ -68,4 +68,6 @@ fun main() {
         println("$number x $i = ${number * i}")
     }
 
+    //this is just the example of the above statement
+
 }
