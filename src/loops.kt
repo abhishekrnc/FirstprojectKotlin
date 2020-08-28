@@ -36,8 +36,24 @@ fun main() {
     for(i in 1..5 ) {
         println(i)
     }
-
+     println("Step one example")
     for(i in 1..5 step 2) {    //step 2 we write for stepping like 1, 3, 5, 7
+        println(i)
+    }
+
+    println("Until Example")
+    for (i in 1 until 5) {   //until is used for not include the upper bound
+        println(i)
+    }
+
+    println("Example of Downto")
+
+    for (i in 10 downTo 1){
+        println(i)
+    }
+
+    println("Example of Downto with step")
+    for (i in 10 downTo 1 step 3){
         println(i)
     }
 
