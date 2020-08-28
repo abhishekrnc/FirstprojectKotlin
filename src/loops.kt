@@ -21,7 +21,14 @@ fun main() {
     //Do while loop (first the program is executed and then the condition is checked)
 
    var index = 5
+//    do{
+//        println("Hello Kotlin")
+//    } while(index>5)
+
     do{
         println("Hello Kotlin")
-    } while(index>5)
+        index++
+    }while(index>5)
+
+
 }
