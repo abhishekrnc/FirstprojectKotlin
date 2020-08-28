@@ -37,4 +37,8 @@ fun main() {
         println(i)
     }
 
+    for(i in 1..5 step 2) {    //step 2 we write for stepping like 1, 3, 5, 7
+        println(i)
+    }
+
 }
