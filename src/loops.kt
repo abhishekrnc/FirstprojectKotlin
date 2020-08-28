@@ -3,6 +3,6 @@ fun main() {
     while (count >= 1)
     {
         println("Hello Welcome to Kotlin Tuotrial")
-
+            count--
     }
 }
