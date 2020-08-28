@@ -14,4 +14,5 @@ fun main() {
         println(number * index)
         index++
     }
+    println("Outside Loop - " + index)   //this line is written to check the last index value from which the looping will end
 }
