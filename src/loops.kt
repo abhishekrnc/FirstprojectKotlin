@@ -20,15 +20,21 @@ fun main() {
 
     //Do while loop (first the program is executed and then the condition is checked)
 
-   var index = 5
+//   var index = 5
+////    do{
+////        println("Hello Kotlin")
+////    } while(index>5)
+//////////////////////////////////////////////
 //    do{
 //        println("Hello Kotlin")
-//    } while(index>5)
+//        index++
+//    }while(index>5)
 
-    do{
-        println("Hello Kotlin")
-        index++
-    }while(index>5)
 
+    //For Loop
+
+    for(i in 1..5 ) {
+        println(i)
+    }
 
 }
