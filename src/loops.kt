@@ -1,4 +1,6 @@
 fun main() {
+    //While Loop (First condition is checked and then the program is executed)
+
     //var count = 5
     //while (count >= 1)
     //{
@@ -7,12 +9,19 @@ fun main() {
    // }
 
 
-    var number = 2
-    var index = 1
-    while (index <= 10)
-    {
-        println(number * index)
-        index++
-    }
-    println("Outside Loop - " + index)   //this line is written to check the last index value from which the looping will end
+//    var number = 2
+//    var index = 1
+//    while (index <= 10)
+//    {
+//        println(number * index)
+//        index++
+//    }
+//    println("Outside Loop - " + index)   //this line is written to check the last index value from which the looping will end
+
+    //Do while loop (first the program is executed and then the condition is checked)
+
+   var index = 5
+    do{
+        println("Hello Kotlin")
+    } while(index>5)
 }
