@@ -14,6 +14,6 @@ fun add(num1 : Int, num2 : Int): Int
 }
 
 fun evenOrOdd(num1 : Int) {
-    val result = if (num1 % 2 == 0) "Even" else "odd"
+    val result = if (num1 % 2 == 0) "Even" else "odd"          //function define ( here the function name is evenOrOdd
     println(result)
 }
