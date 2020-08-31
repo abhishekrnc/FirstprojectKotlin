@@ -3,6 +3,8 @@ fun main() {
     println (result)
     val result2 = add(5, 10)
     println(result2)
+    evenOrOdd(12)             //Function call
+    evenOrOdd(13)
 }
 
 fun add(num1 : Int, num2 : Int): Int
