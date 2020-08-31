@@ -7,6 +7,8 @@ fun main() {
     evenOrOdd(13)
     val result3 = add1 (10, 30)
     println(result3)
+
+    printMessage(4)    //Function calling
 }
 
 fun add(num1 : Int, num2 : Int): Int
@@ -25,3 +27,11 @@ fun evenOrOdd(num1 : Int)
 //The other way of defining a function in Kotlin
 
 fun add1(num1 : Int, num2 : Int): Int = num1 + num2
+
+
+
+fun printMessage(count: Int) {                              //Function Define with for loop and range
+    for (i in 1..count) {
+        println("Hello $i")
+    }
+}
