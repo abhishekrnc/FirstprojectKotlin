@@ -5,15 +5,23 @@ fun main() {
     println(result2)
     evenOrOdd(12)             //Function call
     evenOrOdd(13)
+    val result3 = add1 (10, 30)
+    println(result3)
 }
 
 fun add(num1 : Int, num2 : Int): Int
 {                                                   //This is the first step and here we have defined the function
-    val sum = num1 + num2
+    val sum = num1 + num2                           //Other way to define Function in Kotlin is given below
     return sum
 }
 
-fun evenOrOdd(num1 : Int) {
+fun evenOrOdd(num1 : Int)
+{
     val result = if (num1 % 2 == 0) "Even" else "odd"          //function define ( here the function name is evenOrOdd
     println(result)
 }
+
+
+//The other way of defining a function in Kotlin
+
+fun add1(num1 : Int, num2 : Int): Int = num1 + num2
