@@ -35,3 +35,8 @@ fun printMessage(count: Int) {             //The value which we pass in the func
         println("Hello $i")
     }
 }
+
+
+fun abhishek(dog : String, cat : String) {
+    val result = "Cat" ; "Dog"
+}
