@@ -1,6 +1,7 @@
 fun main() {
     val result = add(4, 5)   //Function calling and this is the second step
     println (result)
+    val result2 = add(5, 10)
 
 }
 
