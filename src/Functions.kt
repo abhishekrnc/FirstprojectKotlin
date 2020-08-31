@@ -5,7 +5,7 @@ fun main() {
     println(result2)
     evenOrOdd(12)             //Function call
     evenOrOdd(13)
-    val result3 = add1 (10, 30)
+    val result3 = add1 (10, 30)    //The calue that we pass during  the function call is called as Argument
     println(result3)
 
     printMessage(4)    //Function calling
@@ -30,7 +30,7 @@ fun add1(num1 : Int, num2 : Int): Int = num1 + num2
 
 
 
-fun printMessage(count: Int) {                              //Function Define with for loop and range
+fun printMessage(count: Int) {             //The value which we pass in the function is called as argument                 //Function Define with for loop and range
     for (i in 1..count) {
         println("Hello $i")
     }
