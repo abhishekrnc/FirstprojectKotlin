@@ -13,5 +13,10 @@ fun main() {
     }
 
     println(arr[0])            //for printing the value of the particular position of array
+    println(arr.get(1))
+    arr.set(0, "Hello")   //reasiging the value of the Index
+    println(arr[0])
+    println(arr.size)     //for size fetching
+    println(arr[2])
 
 }
