@@ -8,7 +8,10 @@ fun main() {
 //    for(i in arr) {             //without Index Number
 //        println(i)
 
-    for((i, e) in arr .withIndex()) {
+    for((i, e) in arr .withIndex()) {     //Array printing with their Index Number
         println("$i - $e")
     }
+
+    println(arr[0])            //for printing the value of the particular position of array
+
 }
