@@ -5,7 +5,10 @@ fun main() {
 
     var arr2 = arrayOf<Int>(3,4,5)    //Explicit declaration of Array
 
-    for(i in arr) {             //without Index Number
-        println(i)
+//    for(i in arr) {             //without Index Number
+//        println(i)
+
+    for((i, e) in arr .withIndex()) {
+        println("$i - $e")
     }
 }
