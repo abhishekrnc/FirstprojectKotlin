@@ -8,7 +8,8 @@ fun main() {
     println(beetle.name)
 
 
-    mustang.driveCar()
+    mustang.driveCar()                         //calling the Methods
+    beetle.driveCar()
 
 }
 
@@ -16,7 +17,7 @@ class Car (val name : String, val type : String, var kmRan : Int)               
 {
     fun driveCar()
     {                                //Method declaration in Kotlin
-        println("Car is driving")
+        println("$name Car is driving")                      //$name is for printing the name
     }
 
     fun applyBrakes()
