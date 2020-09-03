@@ -3,9 +3,9 @@ fun main() {
 
 }
 
-class Car (val name : String, val type : String, var kmRan : Int)
+class Car (val name : String, val type : String, var kmRan : Int)                  //Class declaration in Kotlin
 {
-    fun drive(){
+    fun drive(){                                //Method declaration in Kotlin
 
     }
 }
