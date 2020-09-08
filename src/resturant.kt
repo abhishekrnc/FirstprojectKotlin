@@ -9,7 +9,7 @@ fun main() {
     val fish = menu ("Fish Curry" , 170)
     val biryani = menu ("Biryani" , 320)
 
-}                                                                                        // A Resturant
+}                                                                                        // A Resturant is
     class menu (val name : String, var price : Int)
     {
 
