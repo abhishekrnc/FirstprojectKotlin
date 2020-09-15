@@ -13,4 +13,4 @@ fun main() {
 }
 
 
-//Var can be reassigned and Val cannot be reassigned
+//Var can be reassigned and Val cannot be reassigned.
